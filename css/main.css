@@ -1141,6 +1141,9 @@ pre .javascript .function {
   margin: 0 auto;
   max-width: 120px;
   padding: 2px;
+/* 头像修改为圆形 */
+  border-radius: 50%;
+  trasition: 2s all;
   border-radius: 50%;
 }
 .site-author-name {
@@ -1169,7 +1172,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #824578;
+  background: #7fff3b;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
